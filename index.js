@@ -1,9 +1,6 @@
-const  inquirer= require('inquirer');
+const inquirer = require('inquirer');
 const fs = require('fs');
-const circle= require ('./lib/circle');
-const square= require ('./lib/square');
-const triangle= require ('./lib/triangle');
-const Shapes=require ('.lib/shapes')
+const { Circle, Triangle, Square } = require('./lib/shapes.js');
 
 
 async function promptUser() {
